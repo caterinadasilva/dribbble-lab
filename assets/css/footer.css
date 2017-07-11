@@ -1,11 +1,95 @@
 body {
   width: 100%;
-  height: 1500px;
-  background-color: grey;
+  
 }
+
+.first-text{
+  color: #a1a1a1;
+}
+a, li{
+  text-decoration: none;
+  color: #a1a1a1;
+  list-style: none;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+/* 1 */
 .container-fluid{
-width: 100%;
-height: 300px;
-bottom: 50px;
-background-color: white;
+  padding: 2%;
+}
+.logo-footer{
+  height: 20px;
+}
+.first-text, .text-jobs, .text-volusion{
+  font-size: 15px;
+  font-weight: bold;
+}
+.text-jobs{
+  color: #a1a1a1;
+}
+.container-tres img{
+  height: 30px;
+  width: 30px;
+}
+.link-filas{
+  font-size: 12px;
+  padding-top: 10px;
+}
+.container-dos, .container-tres{
+  padding: 2%;
+}
+.list-jobs{
+  color: #0475D9;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.list-jobs{
+  padding-top: 5%;
+}
+.container-tres p{
+  color: #a1a1a1;
+}
+.logo-flow{
+  width: 80px;
+  padding: 0;
+}
+.last-text{
+  font-size: 14px;
+  padding-right: 15%;
+  color: #a1a1a1;
+}
+.iconos-redes{
+  font-size: 27px;
+  padding-left: 2%;
+  padding-bottom: 3%;
+}
+
+.text-copyright{
+  font-size: 12px;
+  color: #a1a1a1;
+}
+
+.footer-right{
+  margin-left: 40%;
+}
+
+.text-num-final{
+  padding: 0;
+}
+
+.final-num{
+  font-size: 15px;
+  font-weight: bold;
+}
+.final-text{
+  color: #a1a1a1;
+}
+
+.logo-dribbbled{
+  padding-left: 50px;
+  font-size: 12px;
+  padding-top: 5%;
 }
