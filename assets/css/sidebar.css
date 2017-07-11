@@ -1,5 +1,13 @@
+#user-profile {
+	min-height: 150vh;
+	margin: 2em 0;
+}
+header, footer {
+    height: 60px;
+    background-color: #333;
+}
+
 #aside {
-	background-color: rgb(255, 255, 255);
 	min-height: 100px;
 	border: none;
     padding: 0;
@@ -24,6 +32,12 @@ a:hover .label-default {
     text-align: center;
     padding: 10px 0;
 }
+.buttons .btn {
+    font-size: 12px;
+}
+.buttons .btn i {
+    font-size: 14px;
+}
 .buttons .btn-success {
 	background-color: #7bbb5e;
 	border: none;
@@ -42,6 +56,9 @@ a:hover .label-default {
 }
 .buttons .dropdown .btn-default {
 	color: #999;
+}
+.buttons .dropdow:hover .dropdown-menu {
+    display: block !important;
 }
 .buttons .dropdown .btn-default:hover,
 .buttons .dropdown .btn-default:focus {
@@ -82,4 +99,34 @@ a:hover .label-default {
 .skills .btn-default:hover {
     background-color: #fff;
     color: #3a8bbb;
+}
+.links a {
+    margin: 10px 0;
+    color: #999;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.links a span {
+    font-size: 14px;
+    margin: 0 10px;
+    color: #444;
+}
+.links a:hover {
+    color: #444;
+}
+.links a:hover span {
+    color: #3a8bbb;
+}
+
+@media screen and (max-width: 768px){
+	#aside-content {
+	    display: block;
+	    position: relative;
+	}
+
+	#links.hidden {
+		display: block !important;
+	}
 }
