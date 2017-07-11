@@ -3,10 +3,13 @@ $(function() {
     if (resp.data.length > 0) {							
       $.each(resp.data.reverse(), function(i, val) {
       	console.log(val);
+
+        var cajita = $("<div>"). addClass('cajita col-lg-4');
+
         var proyecto = $("<div>").addClass('listaProyecto');
         var listaLink = $("<a>").addClass('listaLink').attr("href" , val.html_url);
         proyecto.append(listaLink);
-        proyecto.addClass("col-lg-4");
+        //proyecto.addClass("col-lg-4");
         var imagen = $("<img>").addClass('imagen').attr('src' , val.images.teaser);
         listaLink.append(imagen);
 
@@ -18,8 +21,14 @@ $(function() {
         info.append(h5);
         info.append(val.description);
         listaLink.append(info);
+//uniendo interaccion social
+        var social = $("<div>").addClass('social');
+        social.text("kjsdkfjkd");
 
-        $("#proyectos").append(proyecto);
+        cajita.append(proyecto);
+        cajita.append(social);
+
+        $("#proyectos").append(cajita);
 
 
 
