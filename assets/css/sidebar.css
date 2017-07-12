@@ -1,14 +1,8 @@
 #user-profile {
-	min-height: 150vh;
 	margin: 2em 0;
 }
-header, footer {
-    height: 60px;
-    background-color: #333;
-}
-
 #aside {
-	min-height: 100px;
+	min-height: 100vh;
 	border: none;
     padding: 0;
 }
