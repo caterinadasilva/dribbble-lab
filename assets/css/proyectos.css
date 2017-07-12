@@ -1,12 +1,13 @@
 #proyectos{
 	text-align: center;
+
 }
 .listaProyecto{
 	position: relative;
 	
+	
 }
 .info{
-	
 	position: absolute;
 	z-index: 222;
 	padding: 10px 25px;
@@ -30,9 +31,16 @@
 .info:hover{
 	opacity: 0.9;
 }
-.cajita{
+img{
 	
 }
-.cosas{
+.cajita{
+	box-sizing: border-box;
+	padding-bottom: 20px;
 	
+}
+.social{
+	text-align: right;
+	color: gray;
+	padding-right: 10px;
 }
