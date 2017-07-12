@@ -1,11 +1,10 @@
 #proyectos{
 	text-align: center;
-
 }
 .listaProyecto{
 	position: relative;
-	
-	
+    padding: 10px 10px 5px;
+    background: #fff;	
 }
 .info{
 	position: absolute;
@@ -19,7 +18,6 @@
 	background-color: white;
 	opacity: 0;
 	width: 100%;
-	
 }
 .info p{
 	font-size: 10px;
@@ -31,16 +29,22 @@
 .info:hover{
 	opacity: 0.9;
 }
-img{
-	
+.imagen {
+	display: block;
+	width: 100%;
+	height: auto;
 }
 .cajita{
 	box-sizing: border-box;
-	padding-bottom: 20px;
-	
+	padding-bottom: 20px;	
 }
-.social{
-	text-align: right;
-	color: gray;
-	padding-right: 10px;
+.social {
+    text-align: right;
+    color: #aaa;
+    padding: 5px 10px;
+    background: #fff;
+    font-size: 85%;
+}
+.social span {
+	margin-right: 5px;
 }

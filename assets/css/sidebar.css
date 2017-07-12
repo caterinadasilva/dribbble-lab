@@ -5,6 +5,12 @@
 	min-height: 100vh;
 	border: none;
     padding: 0;
+    z-index: 100000;
+}
+.content {
+    float: left;
+    display: block;
+    width: 58%;
 }
 a .label-default {
 	background-color: #ccc;
@@ -124,6 +130,9 @@ a:hover .label-default {
 }
 
 @media screen and (max-width: 768px){
+    #aside {
+        min-height: auto;
+    }
 	#aside-content {
 	    display: block;
 	    position: relative;
@@ -131,7 +140,6 @@ a:hover .label-default {
 	.aside-hide {
 		display: block;
 	}
-
 	#btn-hide {
 		display: block;
 	}
