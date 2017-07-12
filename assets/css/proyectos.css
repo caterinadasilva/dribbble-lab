@@ -1,0 +1,46 @@
+#proyectos{
+	text-align: center;
+
+}
+.listaProyecto{
+	position: relative;
+	
+	
+}
+.info{
+	position: absolute;
+	z-index: 222;
+	padding: 10px 25px;
+	text-align: left;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: gray;
+	background-color: white;
+	opacity: 0;
+	width: 100%;
+	
+}
+.info p{
+	font-size: 10px;
+}
+.info h5{
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+.info:hover{
+	opacity: 0.9;
+}
+img{
+	
+}
+.cajita{
+	box-sizing: border-box;
+	padding-bottom: 20px;
+	
+}
+.social{
+	text-align: right;
+	color: gray;
+	padding-right: 10px;
+}
