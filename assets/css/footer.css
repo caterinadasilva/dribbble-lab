@@ -6,6 +6,9 @@ body {
 .first-text{
   color: #a1a1a1;
 }
+.second-text{
+  color: #a1a1a1;
+}
 a, li{
   text-decoration: none;
   color: #a1a1a1;
@@ -61,7 +64,7 @@ a:hover{
   padding-right: 15%;
   color: #a1a1a1;
 }
-.iconos-redes{
+.icono-redes{
   font-size: 27px;
   padding-left: 2%;
   padding-bottom: 3%;
@@ -91,5 +94,5 @@ a:hover{
 .logo-dribbbled{
   padding-left: 50px;
   font-size: 12px;
-  padding-top: 5%;
+  padding-top: 6%;
 }
