@@ -39,10 +39,9 @@ $(function() {
         $("#proyectos").append(cajita);
 
 
-      });  
+      });
+    } else {
+      $('#dribbble').append('<li>No shots.</li>');
     }
-    else {
-      console.log('No shots');
-    }
-  });		   							    
+  });                       
 });

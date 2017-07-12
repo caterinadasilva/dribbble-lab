@@ -1,0 +1,138 @@
+#user-profile {
+	margin: 2em 0;
+}
+#aside {
+	min-height: 100vh;
+	border: none;
+    padding: 0;
+}
+a .label-default {
+	background-color: #ccc;
+	padding: 1px 3px;
+	position: absolute;
+}
+a:hover .label-default {
+	background-color: #66cccc;
+	text-decoration: none;
+}
+.user {
+    text-align: center;
+}
+.user small {
+	color: #999;
+	font-size: 100%;
+}
+.buttons {
+    text-align: center;
+    padding: 10px 0;
+}
+.buttons .btn {
+    font-size: 12px;
+}
+.buttons .btn i {
+    font-size: 14px;
+}
+.buttons .btn-success {
+	background-color: #7bbb5e;
+	border: none;
+}
+.buttons .btn-default {
+    color: #666;
+    background-color: rgba(0,0,0,0.16);
+    border: none;
+}
+.buttons .btn-default.follow:hover {
+    color: #fff;
+    background-color: #3a8bbb;
+}
+.buttons .dropdown {
+    display: inline-block;
+}
+.buttons .dropdown .btn-default {
+	color: #999;
+}
+.buttons .dropdow:hover .dropdown-menu {
+    display: block !important;
+}
+.buttons .dropdown .btn-default:hover,
+.buttons .dropdown .btn-default:focus {
+	color: #ccc;
+	background-color: #333;
+}
+.buttons .dropdown .btn-default:active {
+	border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.buttons .dropdown .dropdown-menu {
+    background-color: #333;
+    color: #ccc;
+    margin: 0;
+    border-top-left-radius: 0;
+}
+.buttons .dropdown .dropdown-menu>li>a {
+    color: #ccc;
+}
+.buttons .dropdown .dropdown-menu>li:hover>a {
+    color: #ddd;
+    background-color: #444;
+}
+.dropdown-menu .divider {
+    background-color: #777;
+}
+.skills {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.panel-body {
+	padding: 20px 30px;
+}
+.panel-body h5 {
+    padding: 0 0 10px;
+    color: #999;
+}
+.skills .btn-default:hover {
+    background-color: #fff;
+    color: #3a8bbb;
+}
+.links a {
+    margin: 10px 0;
+    color: #999;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.links a span {
+    font-size: 14px;
+    margin: 0 10px;
+    color: #444;
+}
+.links a:hover {
+    color: #444;
+}
+.links a:hover span {
+    color: #3a8bbb;
+}
+#btn-hide, .aside-hide {
+	display: none;
+}
+#btn-hide {
+    margin: 0 auto 20px;
+    border: none;
+    background: none;
+    color: #999;
+}
+
+@media screen and (max-width: 768px){
+	#aside-content {
+	    display: block;
+	    position: relative;
+	}
+	.aside-hide {
+		display: block;
+	}
+
+	#btn-hide {
+		display: block;
+	}
+}
