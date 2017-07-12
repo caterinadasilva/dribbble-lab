@@ -21,15 +21,22 @@ $(function() {
         info.append(h5);
         info.append(val.description);
         listaLink.append(info);
-//uniendo interaccion social
+        
+        
+        //uniendo interaccion social ale
         var social = $("<div>").addClass('social');
-        social.append('');
+        //social.text("kajksjka");
+        val.likes_count;
+        val.views_count;
+        val.comments_count;
 
+        social.append('<i class="fa fa-eye" aria-hidden="true"></i><span> ' + val.views_count + ' </span>')
+        social.append('<i class="fa fa-comment" aria-hidden="true"></i><span> ' + val.comments_count + ' </span>')
+        social.append('<i class="fa fa-heart" aria-hidden="true"></i><span> ' + val.likes_count + ' </span>')
         cajita.append(proyecto);
         cajita.append(social);
 
         $("#proyectos").append(cajita);
-
 
 
       });  
