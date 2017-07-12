@@ -53,7 +53,6 @@ table {
 	padding-left: 10px;
 } 
 
-
 @media only screen and (max-width: 959px){ /*logo en el medio de la versión responsive, no se mueve automático eso sí, no sé por qué*/
 	.navbar-brand {
 		display: block;
@@ -81,11 +80,15 @@ div.tabs, ul.tabs-link {
 	text-align: center;
 }
 
-
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
 	background-color: transparent; 
 }
 
+.navbar-default{
+	background-color: #333333;
+}
+
+/*barra menú*/
 .navbar-default{
 	background-color: #333333;
 }
@@ -119,12 +122,28 @@ div.tabs, ul.tabs-link {
 	color: #ccc;
 }
 
+.dropdown-menu li{
+  left: 100%;
+  top: 0;
+  margin-top: -1px;
+  background-color: #333333;
+  background-color: transparent;
+}
+
+.dropdown-menu li:hover {
+  visibility: visible;
+}
+
+.dropdown-menu {
+  background-color: #333;
+}
+
 .navbar-default .navbar-nav>li>a: hover{
 	color: blue;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #777;
+    color: #777;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -152,14 +171,13 @@ div.tabs, ul.tabs-link {
 }
 
 
-}
-
 /*
 .nav-tabs .dropdown-menu,
 .nav-pills .dropdown-menu,
 .navbar .dropdown-menu {
   margin-top: 0;
 }
+
 .navbar .sub-menu:before {
   border-bottom: 7px solid transparent;
   border-left: none;
@@ -168,6 +186,7 @@ div.tabs, ul.tabs-link {
   left: -7px;
   top: 10px;
 }
+
 .navbar .sub-menu:after {
   border-top: 6px solid transparent;
   border-left: none;
