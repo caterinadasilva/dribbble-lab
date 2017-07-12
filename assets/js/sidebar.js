@@ -3,6 +3,8 @@ $(document).ready(function($) {
 	  $('[data-toggle="tooltip"]').tooltip()
 	});
 
+	sidebar();
+
 	$("#btn-hide").click(function(event) {
 		if ($("#links").hasClass('hidden') || $("#skills").hasClass('hidden')) {
 			$("#btn-hide").html('Less <i class="fa fa-chevron-up" aria-hidden="true"></i>')
@@ -14,9 +16,6 @@ $(document).ready(function($) {
 			$("#skills").addClass('hidden');
 		}
 	});
-
-	sidebar();
-
 });
 
 function sidebar() {
@@ -24,11 +23,11 @@ function sidebar() {
 	window.addEventListener("scroll", function() {
 		var currentScroll = window.pageYOffset || document.body.scrollTop;
 		if (currentScroll > lastScrollTop) {
-			$("#links").addClass(".aside-hide");
+			document.getElementById("links").classList.add("aside-hide");
 		} else {
-			$("#links").addClass(".aside-hide");
+			document.getElementById("links").classList.add("aside-hide");
 			if ( currentScroll <= 2 ) {
-				$("#links").removeClass(".aside-hide");
+				document.getElementById("links").classList.remove("aside-hide");
 			}
 		}
 		lastScrollTop = currentScroll;
