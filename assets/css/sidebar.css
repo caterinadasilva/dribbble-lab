@@ -119,14 +119,26 @@ a:hover .label-default {
 .links a:hover span {
     color: #3a8bbb;
 }
+#btn-hide, .aside-hide {
+	display: none;
+}
+#btn-hide {
+    margin: 0 auto 20px;
+    border: none;
+    background: none;
+    color: #999;
+}
 
 @media screen and (max-width: 768px){
 	#aside-content {
 	    display: block;
 	    position: relative;
 	}
+	.aside-hide {
+		display: block;
+	}
 
-	#links.hidden {
-		display: block !important;
+	#btn-hide {
+		display: block;
 	}
 }
