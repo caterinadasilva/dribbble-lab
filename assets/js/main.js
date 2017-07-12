@@ -4,7 +4,7 @@ $(function() {
       $.each(resp.data.reverse(), function(i, val) {
       	console.log(val);
 
-        var cajita = $("<div>"). addClass('cajita col-lg-4');
+        var cajita = $("<div>"). addClass('cajita col-xs-6 col-sm-6 col-md-4 col-lg-4');
 
         var proyecto = $("<div>").addClass('listaProyecto');
         var listaLink = $("<a>").addClass('listaLink').attr("href" , val.html_url);
@@ -32,7 +32,7 @@ $(function() {
 
 
 
-      });
+      });  
     }
     else {
       console.log('No shots');
